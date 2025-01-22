@@ -12,7 +12,7 @@ import { tab_wpp } from './Entity/user.entity'; //reporta a entidade
       port: 5432,
       username: 'postgres',
       password: '1234',
-      database: 'postgres',
+      database: 'APIwpp',
       entities: [tab_wpp], //registra a entidade
       synchronize: false,
     }),
